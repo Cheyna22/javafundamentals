@@ -9,7 +9,7 @@ public class Main {
         }
     }
 
-    
+
 
 
 //    Test cases to run method and see if it behaves correctly, put all test cases in this method
