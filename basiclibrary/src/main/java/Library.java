@@ -9,7 +9,7 @@ public class Library {
         int minValue = 1;
 
         for(int i = 0; i < rollsArray.length; i++) {
-            int randomNum = Math.random(maxValue - minValue) + 1;
+            int randomNum = (int)Math.random() * (maxValue - minValue + 1);
             rollsArray[i] = randomNum;
         }
         return rollsArray;
@@ -24,5 +24,4 @@ public class Library {
 //            }
 //
 //        }
-    }
 }

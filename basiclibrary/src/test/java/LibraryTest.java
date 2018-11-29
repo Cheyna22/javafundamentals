@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class LibraryTest {
     @Test public void testRollMethod() {
         Library classUnderTest = new Library();
-        assertTrue("Roll Method should return array with rolled values", classUnderTest.roll());
+        assertEquals(4, classUnderTest.roll(4).length);
     }
 
 //    @Test public void testContainsDuplicatesMethod() {
