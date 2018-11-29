@@ -10,8 +10,8 @@ public class LibraryTest {
         assertTrue("Roll Method should return array with rolled values", classUnderTest.roll());
     }
 
-    @Test public void testContainsDuplicatesMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("if array contains duplicates return 'true'", classUnderTest.containsDuplicates());
-    }
+//    @Test public void testContainsDuplicatesMethod() {
+//        Library classUnderTest = new Library();
+//        assertTrue("if array contains duplicates return 'true'", classUnderTest.containsDuplicates());
+//    }
 }

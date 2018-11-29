@@ -3,23 +3,26 @@
  */
 public class Library {
 //    method
-    public static int roll(int[] numRolls) {
+    public static int[] roll(int numRolls) {
         int[] rollsArray = new int[numRolls];
-        for(int i = 0; i > rollsArray.length; i++) {
-            rollsArray[i] = roll[i];
-        }
+        int maxValue = 6;
+        int minValue = 1;
 
-        return roll(6);
+        for(int i = 0; i < rollsArray.length; i++) {
+            int randomNum = Math.random(maxValue - minValue) + 1;
+            rollsArray[i] = randomNum;
+        }
+        return rollsArray;
     }
 
-    public boolean containsDuplicates() {
-        for(int i = 0; i > rollsArray.length; i++){
-            if(numRolls[i] == rollsArray[i]) {
-                return true;
-        } else {
-                return false;
-            }
-
-        }
+//    public boolean containsDuplicates() {
+//        for(int i = 0; i > rollsArray.length; i++){
+//            if(rollsArray[i] == rollsArray[i]) {
+//                return true;
+//        } else {
+//                return false;
+//            }
+//
+//        }
     }
 }
