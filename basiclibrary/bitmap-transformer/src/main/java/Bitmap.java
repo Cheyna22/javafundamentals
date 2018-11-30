@@ -11,8 +11,12 @@ public class Bitmap {
             testImg = ImageIO.read(getClass().getResource("bitmapTestImg.bmp"));
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println(testImg);
         }
     }
+
+
+
 
 //    public static void invertImg(){
 //
