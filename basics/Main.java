@@ -44,5 +44,16 @@ public class Main{
         }
     }
 
+    public static int clock(){
+        LocalDateTime now = new LocalDateTime.now();
+        int hour = now.getHour();
+        int minute = now.getMinute();
+        int second = now.getSecond();
+
+        String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+        System.out.println(time);
+    }
+
+
 
 }
