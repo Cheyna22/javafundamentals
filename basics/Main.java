@@ -11,14 +11,33 @@ public class Main{
 
     public static void main(String[] args) {
         int dogCount = 1;
-        System.out.println("I own " + dogCount + " " + pluralize("dog", dogCount + "."));
+        System.out.println("I own " + dogCount + " " + pluralize("dog", dogCount));
 
         int catCount = 2;
-        System.out.println("I own " + catCount + " " + pluralize("cat", catCount + "."));
+        System.out.println("I own " + catCount + " " + pluralize("cat", catCount));
 
         int turtleCount = 0;
-        System.out.println("I own " + turtleCount + " " + pluralize("dog", turtleCount + "."));
+        System.out.println("I own " + turtleCount + " " + pluralize("dog", turtleCount));
+
+
+        flipNHeads(3);
     }
 
+    public static String flipNHeads(int numHeadsFlipped) {
+        // variables to help generate random number between 1 and 0
+        int min = 0;
+        int max = 1;
+        int randomNum = (int) (Math.random() * (max - min)); // generate random number
+
+        int heads = 0;
+        int tails = 0;
+        // if random number is less than .5 = tails
+        // if random number is greater than or equal to .5 = heads
+        if(randomNum <= .5) {
+            return heads++;
+        } else {
+            return tails++;
+        }
+    }
 
 }
