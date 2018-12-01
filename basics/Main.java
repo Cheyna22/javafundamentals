@@ -20,10 +20,10 @@ public class Main{
         System.out.println("I own " + turtleCount + " " + pluralize("dog", turtleCount));
 
 
-        flipNHeads(3);
+        flipNHeads(7);
     }
 
-    public static String flipNHeads(int numHeadsFlipped) {
+    public static void flipNHeads(int numHeadsFlipped) {
         // variables to help generate random number between 1 and 0
         int min = 0;
         int max = 1;
@@ -33,11 +33,16 @@ public class Main{
         int tails = 0;
         // if random number is less than .5 = tails
         // if random number is greater than or equal to .5 = heads
-        if(randomNum <= .5) {
-            return heads++;
-        } else {
-            return tails++;
+        while(heads < numHeadsFlipped) {
+            if(randomNum <= .5) {
+                heads++;
+                System.out.println("Heads");
+            } else if (randomNum > .5) {
+                tails++;
+                System.out.println("Tails");
+            }
         }
     }
+
 
 }
