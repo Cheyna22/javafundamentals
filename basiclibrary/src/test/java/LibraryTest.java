@@ -10,8 +10,8 @@ public class LibraryTest {
         assertEquals(4, classUnderTest.roll(4).length);
     }
 
-//    @Test public void testContainsDuplicatesMethod() {
-//        Library classUnderTest = new Library();
-//        assertTrue("if array contains duplicates return 'true'", classUnderTest.containsDuplicates());
-//    }
+    @Test public void testCalcAverageMethod() {
+        Library classUnderTest = new Library();
+        assertEquals("int", classUnderTest.calcAverage(Library.roll(5)));
+    }
 }
