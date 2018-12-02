@@ -12,6 +12,13 @@ public class LibraryTest {
 
     @Test public void testCalcAverageMethod() {
         Library classUnderTest = new Library();
-        assertEquals("int", classUnderTest.calcAverage(Library.roll(5)));
+        int[] averageArrayTest = new int[]{3, 3};
+        assertEquals("calcAverage should return the average value of an array", classUnderTest.calcAverage(averageArrayTest));
+    }
+
+    @Test public void testContainsDuplicatesMethod() {
+        Library classUnderTest = new Library();
+        int[] duplicatesArrayTest = new int[]{3, 3, 1};
+        assertFalse("if any of the values in the array are equal to eachother, should return false", classUnderTest.containsDuplicates(duplicatesArrayTest));
     }
 }

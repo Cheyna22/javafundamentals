@@ -16,13 +16,37 @@ public class Library {
     }
 
     public static int calcAverage(int[] numArray) {
-        int[] numbers = new int[]{2, 3, 7};
-        int indexSum = 0;
-        for(int i = 0; i < numbers.length; i++) {
-            indexSum = indexSum + numbers[i];
-
-            int average = indexSum / numbers.length;
+        int sum = 0;
+        for(int i = 0; i < numArray.length; i++) {
+           sum = sum + numArray[i];
         }
-        return calcAverage(numArray);
+        return sum / numArray.length;
+    }
+
+    public static boolean containsDuplicates(int[] numbersToCheck) {
+        for (int i = 0; i < numbersToCheck.length; i++) {
+            if (numbersToCheck[i] == numbersToCheck[i]) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+    }
+
+    public static int lowestArrayAverage(int[][] arrays) {
+        int[][] weeklyMonthTemperatures = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+        // iterate through the weeklyMonthTemperatures array
+        // for every array in weeklyMonthTemperatures
+        // calculate the average of that array
+        // store that value in a new array (int[] valuesOfEachArray = new int[])
+        // iterate through the new array
+        // find the lowest value
+        // return array with lowest average
+        for(int i = 0; i < arrays.)
     }
 }
