@@ -7,11 +7,18 @@ import static org.junit.Assert.*;
 public class LibraryTest {
     @Test public void testRollMethod() {
         Library classUnderTest = new Library();
-        assertTrue("Roll Method should return array with rolled values", classUnderTest.roll());
+        assertEquals(4, classUnderTest.roll(4).length);
+    }
+
+    @Test public void testCalcAverageMethod() {
+        Library classUnderTest = new Library();
+        int[] averageArrayTest = new int[]{3, 3};
+        assertEquals("calcAverage should return the average value of an array", classUnderTest.calcAverage(averageArrayTest));
     }
 
     @Test public void testContainsDuplicatesMethod() {
         Library classUnderTest = new Library();
-        assertTrue("if array contains duplicates return 'true'", classUnderTest.containsDuplicates());
+        int[] duplicatesArrayTest = new int[]{3, 3, 1};
+        assertFalse("if any of the values in the array are equal to eachother, should return false", classUnderTest.containsDuplicates(duplicatesArrayTest));
     }
 }

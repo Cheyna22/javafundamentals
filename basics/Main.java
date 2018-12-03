@@ -28,7 +28,7 @@ public class Main{
         int min = 0;
         int max = 1;
         int randomNum = (int) (Math.random() * (max - min)); // generate random number
-
+      
         int heads = 0;
         int tails = 0;
         // if random number is less than .5 = tails
@@ -44,6 +44,10 @@ public class Main{
         }
     }
 
+
+
+}
+
     public static int clock(){
         LocalDateTime now = new LocalDateTime.now();
         int hour = now.getHour();
@@ -57,3 +61,4 @@ public class Main{
 
 
 }
+
