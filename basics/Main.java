@@ -21,9 +21,6 @@ public class Main{
 
 
         flipNHeads(7);
-
-        LocalDateTime now = new LocalDateTime.now();
-        System.out.println(now);
     }
 
     public static void flipNHeads(int numHeadsFlipped) {
@@ -31,8 +28,7 @@ public class Main{
         int min = 0;
         int max = 1;
         int randomNum = (int) (Math.random() * (max - min)); // generate random number
-        System.out.println("random: " + randomNum);
-
+      
         int heads = 0;
         int tails = 0;
         // if random number is less than .5 = tails
@@ -48,17 +44,21 @@ public class Main{
         }
     }
 
-//    public static int clock(){
-//        LocalDateTime now = new LocalDateTime.now();
-//        System.out.println(now);
-//        int hour = now.getHour();
-//        int minute = now.getMinute();
-//        int second = now.getSecond();
-//
-//        String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
-//        System.out.println(time);
-//    }
+
+
+}
+
+    public static int clock(){
+        LocalDateTime now = new LocalDateTime.now();
+        int hour = now.getHour();
+        int minute = now.getMinute();
+        int second = now.getSecond();
+
+        String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+        System.out.println(time);
+    }
 
 
 
 }
+
