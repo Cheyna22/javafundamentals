@@ -50,9 +50,8 @@ public class Main{
         int minute = now.getMinute();
         int second = now.getSecond();
 
+        // for every second, print the time.
 
-        String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
-        System.out.println(time);
     }
 
 
