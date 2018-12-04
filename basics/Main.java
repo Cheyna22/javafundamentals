@@ -27,7 +27,8 @@ public class Main{
         // variables to help generate random number between 1 and 0
         int min = 0;
         int max = 1;
-        int randomNum = (int) (Math.random() * (max - min)); // generate random number
+        int randomNum = (Math.random() * (max - min)); // generate random number
+        System.out.println("random: " + randomNum);
 
         int heads = 0;
         int tails = 0;
@@ -44,15 +45,15 @@ public class Main{
         }
     }
 
-    public static int clock(){
-        LocalDateTime now = new LocalDateTime.now();
-        int hour = now.getHour();
-        int minute = now.getMinute();
-        int second = now.getSecond();
-
-        // for every second, print the time.
-
-    }
+//    public static int clock(){
+//        LocalDateTime now = new LocalDateTime.now();
+//        int hour = now.getHour();
+//        int minute = now.getMinute();
+//        int second = now.getSecond();
+//
+//        // for every second, print the time.
+//
+//    }
 
 
 
