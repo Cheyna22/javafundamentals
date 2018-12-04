@@ -21,4 +21,10 @@ public class LibraryTest {
         int[] duplicatesArrayTest = new int[]{3, 3, 1};
         assertFalse("if any of the values in the array are equal to eachother, should return false", classUnderTest.containsDuplicates(duplicatesArrayTest));
     }
+
+    @Test public void testLowestArrayAverageMethod() {
+//        Library classUnderTest = new Library();
+//        assertEquals(,);
+
+    }
 }

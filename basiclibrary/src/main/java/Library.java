@@ -31,6 +31,7 @@ public class Library {
                 return true;
             }
         }
+        return false;
     }
 
     public static int lowestArrayAverage(int[][] arrays) {
@@ -40,13 +41,25 @@ public class Library {
                 {55, 54, 60, 53, 59, 57, 61},
                 {65, 56, 55, 52, 55, 62, 57}
         };
+
         // iterate through the weeklyMonthTemperatures array
         // for every array in weeklyMonthTemperatures
-        // calculate the average of that array
+        // calculate the average of that array - used calcAverage Method
         // store that value in a new array (int[] valuesOfEachArray = new int[])
         // iterate through the new array
         // find the lowest value
         // return array with lowest average
-        for(int i = 0; i < arrays.)
+
+        int avgSingleArray = Integer.MAX_VALUE;
+        int lowestAverageSoFar = avgSingleArray;
+
+        for(int row = 0; row < weeklyMonthTemperatures.length; row++) {
+             avgSingleArray = (calcAverage(weeklyMonthTemperatures[row]));
+
+            if(avgSingleArray < lowestAverageSoFar) {
+                lowestAverageSoFar = avgSingleArray;
+            }
+        }
+        return lowestAverageSoFar;
     }
 }
