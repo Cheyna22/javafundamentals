@@ -2,28 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6caadcdf-e78e-4bc9-b883-9b94de2e90f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/basics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/java-fundamentals.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__com_google_guava_guava_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules/basiclibrary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules/basiclibrary_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules/basiclibrary_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules/javafundamentals-basiclibrary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules/javafundamentals-basiclibrary_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/modules/javafundamentals-basiclibrary_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/basiclibrary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.idea/modules/bitmap-transformer_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/.idea/modules/bitmap-transformer_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/bitmap-transformer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/build/classes/java/main/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/build/classes/java/main/Bitmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/out/production/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/bitmap-transformer/out/production/classes/Bitmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/classes/java/main/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/classes/java/test/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/reports/tests/test/classes/LibraryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/test-results/test/TEST-LibraryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/src/main/java/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/src/test/java/LibraryTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +106,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -90,16 +133,13 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +151,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,16 +187,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120272316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -163,14 +201,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
