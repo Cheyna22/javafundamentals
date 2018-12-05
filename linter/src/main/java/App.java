@@ -10,24 +10,27 @@ import java.nio.file.Path;
 public class App {
     public static void linterReader(Path incomingFile) {  // path goes in tests
         Charset charset = Charset.forName("US-ASCII");
+        // reading file -  reader looks at incomingFile
         try(BufferedReader reader = Files.newBufferedReader(incomingFile, charset)) {
-            String currentLine = "";
-            int line = 0;
-            while(currentLine != null) {
-                if(currentLine.endsWith(";")){
-                    // keep going through
+            // then this is looking at it line by line
+            String lineBeingRead = " ";
+            int lineNumber = 0;
+            // while there are still lines in this file
+            while(lineBeingRead != null) {
+
+                // run conditions to check for errors
+                if (!lineBeingRead.contains("if") && !lineBeingRead.contains("else") &&
+                        !lineBeingRead.isEmpty() && !lineBeingRead.endsWith(";") &&
+                        !lineBeingRead.endsWith("}") && !lineBeingRead.endsWith("{")) {
+                    // want error message
+                    //Line (number of line) "missing semicolon"
+                    System.out.println("Line " + lineNumber + " is missing semicolon.");
                 }
-                System.out.println("Line " + line + " missing semicolon");
+                lineNumber++;
             }
-        } catch (IOException e) {
-            System.err.format("IOException: %s%n, e");
+        } catch (IOException x) {
+            System.err.format("IOException: %s%n, x");
         }
 
     }
-
-    public static
-
-
-
-
 }

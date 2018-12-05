@@ -9,8 +9,9 @@ import static org.junit.Assert.*;
 
 public class AppTest {
     @Test public void testLinterReaderMethod() {
-        Path file = new Path("C:\Users\humph\401 - Java Android\javafundamentals\linter\resources\gates.js");
         App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.testLinterReaderMethod());
+
+
+        assertEquals("no error if line is empty", true, classUnderTest.linterReader());
     }
 }
