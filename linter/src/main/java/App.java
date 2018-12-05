@@ -15,7 +15,7 @@ public class App {
             int line = 0;
             while(currentLine != null) {
                 if(currentLine.endsWith(";")){
-                    // do nothing
+                    // keep going through
                 }
                 System.out.println("Line " + line + " missing semicolon");
             }
