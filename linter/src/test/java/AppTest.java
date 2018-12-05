@@ -4,13 +4,19 @@
 import org.junit.Test;
 
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import static org.junit.Assert.*;
 
 public class AppTest {
     @Test public void testLinterReaderMethod() {
-        Path file = new Path("C:\Users\humph\401 - Java Android\javafundamentals\linter\resources\gates.js");
         App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.testLinterReaderMethod());
+
+//        App.linterReader(Paths.get("resources/gates.js"));
+        App.linterReader(Paths.get("resources/noErrorsGates.js"));
+
+//        assertEquals("no error if line is empty", true, classUnderTest.linterReader());
+        assertThat();
+//        assertTrue(true, if line 3 has missing semicolon);
     }
 }
