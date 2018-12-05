@@ -13,8 +13,9 @@ public class App {
         // reading file -  reader looks at incomingFile
         try(BufferedReader reader = Files.newBufferedReader(incomingFile, charset)) {
             // then this is looking at it line by line
-            String lineBeingRead = " ";
+            String lineBeingRead = "";
             int lineNumber = 0;
+            int numberOfErrorsCaught = 0;
             // while there are still lines in this file
             while(lineBeingRead != null) {
 
@@ -25,8 +26,11 @@ public class App {
                     // want error message
                     //Line (number of line) "missing semicolon"
                     System.out.println("Line " + lineNumber + " is missing semicolon.");
+                    // for test count # of errors
+                    numberOfErrorsCaught++;
                 }
                 lineNumber++;
+                lineBeingRead = reader.readLine();
             }
         } catch (IOException x) {
             System.err.format("IOException: %s%n, x");

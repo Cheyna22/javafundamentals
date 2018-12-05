@@ -4,6 +4,7 @@
 import org.junit.Test;
 
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import static org.junit.Assert.*;
 
@@ -11,7 +12,11 @@ public class AppTest {
     @Test public void testLinterReaderMethod() {
         App classUnderTest = new App();
 
+//        App.linterReader(Paths.get("resources/gates.js"));
+        App.linterReader(Paths.get("resources/noErrorsGates.js"));
 
-        assertEquals("no error if line is empty", true, classUnderTest.linterReader());
+//        assertEquals("no error if line is empty", true, classUnderTest.linterReader());
+        assertThat();
+//        assertTrue(true, if line 3 has missing semicolon);
     }
 }
