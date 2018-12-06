@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basiclibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/basiclibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basiclibrary_main.iml" filepath="$PROJECT_DIR$/.idea/modules/basiclibrary_main.iml" group="basiclibrary" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/basiclibrary_test.iml" filepath="$PROJECT_DIR$/.idea/modules/basiclibrary_test.iml" group="basiclibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javafundamentals-basiclibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/javafundamentals-basiclibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javafundamentals-basiclibrary_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javafundamentals-basiclibrary_main.iml" group="basiclibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javafundamentals-basiclibrary_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javafundamentals-basiclibrary_test.iml" group="basiclibrary" />
     </modules>
   </component>
 </project>

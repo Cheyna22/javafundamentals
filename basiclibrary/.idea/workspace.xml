@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67bbae4a-20b9-4971-a3e0-2aa2f0d2c00f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules/basiclibrary_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/basiclibrary_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules/basiclibrary_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/basiclibrary_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../basics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -64,11 +61,11 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -127,33 +124,10 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../src/main/java/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../src/test/java/LibraryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#915#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -174,22 +148,6 @@
           <key>
             <ExternalProjectPojo>
               <option name="name" value="basiclibrary" />
-              <option name="path" value="$PROJECT_DIR$/.." />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="basiclibrary" />
-                <option name="path" value="$PROJECT_DIR$/.." />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="basiclibrary" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -198,6 +156,22 @@
               <ExternalProjectPojo>
                 <option name="name" value="basiclibrary" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="basiclibrary" />
+              <option name="path" value="$PROJECT_DIR$/.." />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="basiclibrary" />
+                <option name="path" value="$PROJECT_DIR$/.." />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -492,12 +466,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6175800000547" />
+        <entry key="$PROJECT_DIR$/../.gradle" value="0" />
+        <entry key="$PROJECT_DIR$" value="6176365743100" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1472778929" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="307973072" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3742115986" />
-        <entry key="$PROJECT_DIR$/../.gradle" value="0" />
         <entry key="$PROJECT_DIR$/../build.gradle" value="1472778929" />
         <entry key="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" value="307973072" />
         <entry key="$PROJECT_DIR$/../settings.gradle" value="3742115986" />
@@ -652,6 +626,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -695,11 +670,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543954055511" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544133528847" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -719,57 +693,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager">
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basiclibrary_test" />
+      <module name="javafundamentals-basiclibrary_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testCalcAverageMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basiclibrary_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="testCalcAverageMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTest.testContainsDuplicatesMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basiclibrary_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="testContainsDuplicatesMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTest.testRollMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basiclibrary_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="testRollMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.LibraryTest.testRollMethod" />
-      <item itemvalue="JUnit.LibraryTest" />
-      <item itemvalue="JUnit.LibraryTest.testCalcAverageMethod" />
-      <item itemvalue="JUnit.LibraryTest.testContainsDuplicatesMethod" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LibraryTest" />
-        <item itemvalue="JUnit.LibraryTest.testCalcAverageMethod" />
-        <item itemvalue="JUnit.LibraryTest.testRollMethod" />
-        <item itemvalue="JUnit.LibraryTest.testContainsDuplicatesMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -820,10 +755,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.847541" visible="true" weight="0.2624811" />
-      <window_info id="Structure" order="1" sideWeight="0.15245901" side_tool="true" visible="true" weight="0.2624811" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84590167" visible="true" weight="0.26626325" />
+      <window_info id="Structure" order="1" sideWeight="0.15409836" side_tool="true" visible="true" weight="0.26626325" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -856,24 +790,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../src/test/java/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#915#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/main/java/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/test/java/LibraryTest.java" />
+    <entry file="file://$PROJECT_DIR$/../src/main/java/Library.java" />
   </component>
   <component name="masterDetails">
     <states>
